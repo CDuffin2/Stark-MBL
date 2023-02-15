@@ -1,0 +1,71 @@
+Listed below are codes/parameters used for each figure.
+
+Figure: Tau_0.5.pdf
+Code: Tau.py
+Parameters:
+typical scaling exponent
+L_lst = np.array([6,8,10,12,14]) #system sizes
+J = 0.5 #hopping amplitude
+V = 0.5 #interaction strength
+gamma = 5 #potential strength
+w = 0.05 #disorder strength
+T_0 = 2*np.pi*n/gamma
+T_1 = 1.0 (strong), 0.5 (weak), 0.3 (vweak)
+q_lst = np.linspace(0,3,16) #IPR moments
+navg = 10000 #total averaging (evecs * disorder)
+
+Figure: EEV_0.5.pdf
+Code: EEV.py
+Paramaters:
+L = 16 #system size
+J = 0.5 #hopping amplitude
+V = 0.5 #interaction strength
+gamma = 5 #potential strength
+w = 0.05 #disorder
+lst = np.array([0.5,1,1.5,2.0])
+T_0_lst = 2*np.pi*lst/gamma #unkicked period
+T_1 = 0.5, 1.0 #kicked period
+n_site = 3 #site index for number density operator
+(Note that the code only calculates a single size, whereas in this figure several sizes have been calculated separately and plotted together).
+
+Figure: I_14.pdf
+Code: IPR_Map.py
+Parameters:
+L = 14 #system size
+J = 0.5 #hopping amplitude
+V = 0.5 #interaction strength
+gamma = 5 #potential strength
+w = 0.05 #disorder strength
+n_1 = 29 #T_0 iterations
+n_2 = n_1 #T_1 iterations
+n_lst = np.linspace(0.1,2.9,n_1)
+T_0_lst = 2*np.pi*n_lst/gamma #unkicked period
+T_1_lst = np.linspace(0,1,n_2) #kicked period
+
+Figure: EEV_Map.pdf
+Code: EEV_Map.py
+Parameters:
+L = 12 #system size
+J = 0.5 #hopping amplitude
+V = 0.5 #interaction strength
+gamma = 5 #potential strength
+w = 0.05 #disorder strength
+n_1 = 29 #T_0 iterations
+n_2 = n_1 #T_1 iterations
+n_lst = np.linspace(0.1,2.9,n_1)
+T_0_lst = 2*np.pi*n_lst/gamma #unkicked period
+T_1_lst = np.linspace(0,1,n_2) #kicked period
+n_site = 3 #site for number density
+return L,J,V,gamma,w,n_1,n_2,T_0_lst,T_1_lst,n_lst,n_site
+
+Figure: EEV_Map_Gamma.pdf
+Parameters:
+L = 10 #system size
+J = 0.5 #hopping amplitude
+V = 0.5 #interaction strength
+w = 0.05 #disorder strength
+n_1 = 29 #gamma iterations
+n_2 = n_1 #T_1 iterations
+gamma_lst = np.linspace(0.1,5,n_1) #potential strength
+T_1_lst = np.linspace(0,5,n_2) #kicked period
+n_site = 3 #site for number density
