@@ -7,3 +7,4 @@ Tau.py: Calculation of scaling exponents τ_q plotted against q, extrapolated to
 EEV.py: Calculation of eigenstate expectation values both on resonance and off resonance.
 IPR_Map.py: Phase diagram of IPRs as a function of both T_0 and T_1.
 EEV_Map: Similar phase diagram as IPR_Map but with a calculation of EEV standard deviations rather than IPRs.
+BST.py: Extrapolation of scaling exponents using BST algorithm.
