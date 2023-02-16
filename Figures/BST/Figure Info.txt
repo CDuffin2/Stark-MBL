@@ -1,0 +1,12 @@
+These figures relate to extrapolations of scaling exponents using the BST algorithm.
+
+The extrapolated exponents for T_1 = 0.5 are shown in Tau_Ext. Parameters are the same as in Tau_0.5.
+ 
+For each T_0, a different ω (free parameter used in the algorithm) is obtained. The procedure for obtaining each ω is demonstrated in Diff_1.0 and Diff_2.0. Here, one plots ε_m^(i) against ω, where ε_m^(i)=2(T_m^(i+1)-T_m^(i)). The optimal ω has been selected as the point where the sum over all ε_m^(i) is minimised. Off resonance, all ε_m^(i) gradually decrease with increasing ω, so the optimal solution is trivially just large ω. 
+
+Values of ω are:
+
+γT_0/2π = 0.5: ω = 10
+γT_0/2π = 1.0: ω = 1.85
+γT_0/2π = 0.5 ω = 10
+γT_0/2π = 2.0 ω = 4.10
