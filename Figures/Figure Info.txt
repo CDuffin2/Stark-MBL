@@ -12,7 +12,7 @@ w = 0.05 #disorder strength
 T_0 = 2*np.pi*n/gamma
 T_1 = 1.0 (strong), 0.5 (weak), 0.3 (vweak)
 q_lst = np.linspace(0,3,16) #IPR moments
-navg = 10000 #total averaging (evecs * disorder)
+navg = 20000 #total averaging (evecs * disorder)
 
 Figure: EEV_0.5.pdf
 Code: EEV.py
