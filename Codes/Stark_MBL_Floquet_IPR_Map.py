@@ -160,8 +160,7 @@ def Parameters():
     return L,J,V,gamma,w,n_1,n_2,T_0_lst,T_1_lst,n_lst
 
 start = time.time()
-#I = Main()
-I = np.load('Stark_Files_2/IPR/Data/I_14.npy')
+I = Main()
 end = time.time()
 print("Runtime:", (end-start)/60, "minutes")
 Plot(I)
