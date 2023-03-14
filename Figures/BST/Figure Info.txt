@@ -10,3 +10,6 @@ Values of ω are:
 γT_0/2π = 1.0: ω = 1.85
 γT_0/2π = 0.5 ω = 10
 γT_0/2π = 2.0 ω = 4.10
+
+Tau_Map_2.0:
+Phase diagram using extrapolated scaling exponents at q=2. Parameters are the same as in Tau_0.5.
